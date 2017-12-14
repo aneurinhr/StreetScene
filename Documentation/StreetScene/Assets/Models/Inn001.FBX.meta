@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: f229b54be1d2d7e43b4de8ac9d910754
+timeCreated: 1512834095
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Bolt012
+    100002: Bolt013
+    100004: Bolt014
+    100006: Bolt015
+    100008: Bolt016
+    100010: Bolt018
+    100012: Bolt019
+    100014: Bolt020
+    100016: Bolt021
+    100018: Bolt022
+    100020: Bolt023
+    100022: Bolt024
+    100024: Bolt025
+    100026: Bolt026
+    100028: Bolt027
+    100030: Bolt028
+    100032: Bolt029
+    100034: Bolt030
+    100036: Bolt031
+    100038: Bolt032
+    100040: DoorBolts001
+    100042: DoorBolts002
+    100044: DoorHandle001
+    100046: DoorHandle002
+    100048: Inn 1
+    100050: //RootNode
+    400000: Bolt012
+    400002: Bolt013
+    400004: Bolt014
+    400006: Bolt015
+    400008: Bolt016
+    400010: Bolt018
+    400012: Bolt019
+    400014: Bolt020
+    400016: Bolt021
+    400018: Bolt022
+    400020: Bolt023
+    400022: Bolt024
+    400024: Bolt025
+    400026: Bolt026
+    400028: Bolt027
+    400030: Bolt028
+    400032: Bolt029
+    400034: Bolt030
+    400036: Bolt031
+    400038: Bolt032
+    400040: DoorBolts001
+    400042: DoorBolts002
+    400044: DoorHandle001
+    400046: DoorHandle002
+    400048: Inn 1
+    400050: //RootNode
+    2300000: Bolt012
+    2300002: Bolt013
+    2300004: Bolt014
+    2300006: Bolt015
+    2300008: Bolt016
+    2300010: Bolt018
+    2300012: Bolt019
+    2300014: Bolt020
+    2300016: Bolt021
+    2300018: Bolt022
+    2300020: Bolt023
+    2300022: Bolt024
+    2300024: Bolt025
+    2300026: Bolt026
+    2300028: Bolt027
+    2300030: Bolt028
+    2300032: Bolt029
+    2300034: Bolt030
+    2300036: Bolt031
+    2300038: Bolt032
+    2300040: DoorHandle001
+    2300042: DoorHandle002
+    2300044: Inn 1
+    3300000: Bolt012
+    3300002: Bolt013
+    3300004: Bolt014
+    3300006: Bolt015
+    3300008: Bolt016
+    3300010: Bolt018
+    3300012: Bolt019
+    3300014: Bolt020
+    3300016: Bolt021
+    3300018: Bolt022
+    3300020: Bolt023
+    3300022: Bolt024
+    3300024: Bolt025
+    3300026: Bolt026
+    3300028: Bolt027
+    3300030: Bolt028
+    3300032: Bolt029
+    3300034: Bolt030
+    3300036: Bolt031
+    3300038: Bolt032
+    3300040: DoorHandle001
+    3300042: DoorHandle002
+    3300044: Inn 1
+    4300000: Inn
+    4300002: DoorHandle002
+    4300004: DoorHandle001
+    4300006: Bolt023
+    4300008: Bolt024
+    4300010: Bolt025
+    4300012: Bolt026
+    4300014: Bolt027
+    4300016: Bolt028
+    4300018: Bolt029
+    4300020: Bolt030
+    4300022: Bolt031
+    4300024: Bolt032
+    4300026: Bolt012
+    4300028: Bolt013
+    4300030: Bolt014
+    4300032: Bolt015
+    4300034: Bolt016
+    4300036: Bolt018
+    4300038: Bolt019
+    4300040: Bolt020
+    4300042: Bolt021
+    4300044: Bolt022
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3.5
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
