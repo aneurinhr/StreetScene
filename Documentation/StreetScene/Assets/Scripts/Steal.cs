@@ -7,16 +7,27 @@ public class Steal : MonoBehaviour {
 
     public GameObject stealUI;
     public GameObject scoreUI;
+    public GameObject win;
 
+    public int winScore = 200;
     public string stealTag;
+
     private bool m_seeStealable = false;
-    private GameObject m_stealable;
+    private bool m_Won = false;
     private int m_score = 0;
-	
-	// Update is called once per frame
-	void Update () {
+
+    private GameObject m_stealable;
+
+    // Update is called once per frame
+    void Update () {
 
         LookForStealable();
+
+        if ((m_score >= winScore) && (m_Won == false))
+        {
+            win.GetComponent<WinLose>().Win();
+            m_Won = true;
+        }
 
     }
 

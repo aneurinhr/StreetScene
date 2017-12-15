@@ -8,6 +8,8 @@ public class Timer : MonoBehaviour {
     public float timer;
     public float timeLimit;
 
+    public GameObject lose;
+
     // Use this for initialization
     void Start () {
         timer = timeLimit;
@@ -20,7 +22,7 @@ public class Timer : MonoBehaviour {
 
         if (timer < 0.0f)
         {
-            //GameOver
+            lose.GetComponent<WinLose>().GameOver();
         }
 
         gameObject.GetComponent<Image>().fillAmount = (1 / timeLimit) * timer;
