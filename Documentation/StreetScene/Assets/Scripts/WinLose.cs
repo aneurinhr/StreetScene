@@ -8,10 +8,11 @@ public class WinLose : MonoBehaviour {
 
     public GameObject win;
     public GameObject lose;
+    public GameObject menu;
 
     public void GameOver()
     {
-        Time.timeScale = 0;
+        menu.GetComponent<PauseMenu>().GameOver();
 
         CheckWin();
     }
