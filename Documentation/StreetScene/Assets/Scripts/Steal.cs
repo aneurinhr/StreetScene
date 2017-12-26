@@ -9,10 +9,13 @@ public class Steal : MonoBehaviour {
     public GameObject scoreUI;
     public GameObject win;
 
+    public AudioClip stealSound;
+
     public int winScore = 200;
     public string stealTag;
 
     private bool m_seeStealable = false;
+    private bool m_stealing = false;
     private bool m_Won = false;
     private int m_score = 0;
 
@@ -33,16 +36,26 @@ public class Steal : MonoBehaviour {
 
     private void OnTriggerStay(Collider other)
     {
-        if ((m_seeStealable == true) && (Input.GetButtonDown("Steal")))
+        if ((m_stealing == false) && (m_seeStealable == true) && (Input.GetButtonDown("Steal")))
         {
-            int temp = m_stealable.GetComponent<Lootable>().Looted();
-            m_score = m_score + temp;
-
-            m_stealable.SetActive(false);
-
-            scoreUI.GetComponent<Text>().text = "Loot Score: " + m_score;
-            m_seeStealable = false;
+            m_stealing = true;
+            GetComponent<AudioSource>().PlayOneShot(stealSound);
+            StartCoroutine(ExecuteSteal());
         }
+    }
+
+    IEnumerator ExecuteSteal()
+    {
+        yield return new WaitForSecondsRealtime(0.3f);
+
+        int temp = m_stealable.GetComponent<Lootable>().Looted();
+        m_score = m_score + temp;
+
+        m_stealable.SetActive(false);
+
+        scoreUI.GetComponent<Text>().text = "Loot Score: " + m_score;
+        m_seeStealable = false;
+        m_stealing = false;
     }
 
     private void LookForStealable()

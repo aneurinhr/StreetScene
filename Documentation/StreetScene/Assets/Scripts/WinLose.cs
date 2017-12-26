@@ -10,6 +10,9 @@ public class WinLose : MonoBehaviour {
     public GameObject lose;
     public GameObject menu;
 
+    public AudioClip winAudio;
+    public AudioClip loseAudio;
+
     public void GameOver()
     {
         menu.GetComponent<PauseMenu>().GameOver();
@@ -21,10 +24,12 @@ public class WinLose : MonoBehaviour {
     {
         if (m_Win == true)
         {
+            GetComponent<AudioSource>().PlayOneShot(winAudio);
             win.SetActive(true);
         }
         else
         {
+            GetComponent<AudioSource>().PlayOneShot(loseAudio);
             lose.SetActive(true);
         }
     }

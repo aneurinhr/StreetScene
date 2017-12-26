@@ -6,18 +6,18 @@ using UnityEngine.SceneManagement;
 public class SceneChangeButton : MonoBehaviour {
 
     public string nextScene;
-    //public AudioClip button;
+    public AudioClip button;
 
     public void Activate()
     {
         if (nextScene == "Quit")
         {
-            //GetComponent<AudioSource>().PlayOneShot(button);
+            GetComponent<AudioSource>().PlayOneShot(button);
             StartCoroutine(ExecuteQuit());
         }
         else
         {
-            //GetComponent<AudioSource>().PlayOneShot(button);
+            GetComponent<AudioSource>().PlayOneShot(button);
             StartCoroutine(ExecuteReset());
         }
     }
