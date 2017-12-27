@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: 5839f35d99862144aa6775ba694369d4
+timeCreated: 1514389770
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Bolt033
+    100002: Bolt034
+    100004: Bolt035
+    100006: Bolt036
+    100008: Bolt037
+    100010: Bolt038
+    100012: Bolt045
+    100014: Bolt046
+    100016: Bolt047
+    100018: Bolt048
+    100020: Bolt049
+    100022: Bolt050
+    100024: Bolt051
+    100026: Bolt052
+    100028: Bolt053
+    100030: Bolt054
+    100032: Door
+    100034: DoorBolts003
+    100036: DoorHandle003
+    100038: //RootNode
+    400000: Bolt033
+    400002: Bolt034
+    400004: Bolt035
+    400006: Bolt036
+    400008: Bolt037
+    400010: Bolt038
+    400012: Bolt045
+    400014: Bolt046
+    400016: Bolt047
+    400018: Bolt048
+    400020: Bolt049
+    400022: Bolt050
+    400024: Bolt051
+    400026: Bolt052
+    400028: Bolt053
+    400030: Bolt054
+    400032: Door
+    400034: DoorBolts003
+    400036: DoorHandle003
+    400038: //RootNode
+    2300000: Bolt033
+    2300002: Bolt034
+    2300004: Bolt035
+    2300006: Bolt036
+    2300008: Bolt037
+    2300010: Bolt038
+    2300012: Bolt045
+    2300014: Bolt046
+    2300016: Bolt047
+    2300018: Bolt048
+    2300020: Bolt049
+    2300022: Bolt050
+    2300024: Bolt051
+    2300026: Bolt052
+    2300028: Bolt053
+    2300030: Bolt054
+    2300032: Door
+    2300034: DoorHandle003
+    3300000: Bolt033
+    3300002: Bolt034
+    3300004: Bolt035
+    3300006: Bolt036
+    3300008: Bolt037
+    3300010: Bolt038
+    3300012: Bolt045
+    3300014: Bolt046
+    3300016: Bolt047
+    3300018: Bolt048
+    3300020: Bolt049
+    3300022: Bolt050
+    3300024: Bolt051
+    3300026: Bolt052
+    3300028: Bolt053
+    3300030: Bolt054
+    3300032: Door
+    3300034: DoorHandle003
+    4300000: Door
+    4300002: Bolt033
+    4300004: Bolt034
+    4300006: Bolt035
+    4300008: Bolt036
+    4300010: Bolt037
+    4300012: Bolt038
+    4300014: Bolt045
+    4300016: Bolt046
+    4300018: Bolt047
+    4300020: Bolt048
+    4300022: Bolt049
+    4300024: Bolt050
+    4300026: Bolt051
+    4300028: Bolt052
+    4300030: Bolt053
+    4300032: Bolt054
+    4300034: DoorHandle003
+    7400000: Open
+    7400002: Close
+    7400004: Open //// ShopDoor
+    7400006: Close //// ShopDoor
+    9500000: //RootNode
+    11100000: //RootNode
+    11100002: Bolt033
+    11100004: Bolt034
+    11100006: Bolt035
+    11100008: Bolt036
+    11100010: Bolt037
+    11100012: Bolt038
+    11100014: Bolt045
+    11100016: Bolt046
+    11100018: Bolt047
+    11100020: Bolt048
+    11100022: Bolt049
+    11100024: Bolt050
+    11100026: Bolt051
+    11100028: Bolt052
+    11100030: Bolt053
+    11100032: Bolt054
+    11100034: Door
+    11100036: DoorBolts003
+    11100038: DoorHandle003
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 1
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Open
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Close
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 60
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3.5
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
