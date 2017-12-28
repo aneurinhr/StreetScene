@@ -142,7 +142,7 @@ Transform:
   - {fileID: 385697238}
   - {fileID: 48578359}
   m_Father: {fileID: 1025247515}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &12255218
 GameObject:
@@ -8261,10 +8261,9 @@ MonoBehaviour:
   lockPickSound: {fileID: 8300000, guid: ca4b3295eae61cd499da87beec462e62, type: 3}
   interactUI: {fileID: 360555361}
   person: {fileID: 1228950947}
-  open: Open
-  close: Close
   doorTag: Interactable
   lockPickTime: 1
+  rotateSpeed: 70
 --- !u!135 &581366370
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8842,7 +8841,8 @@ Prefab:
       propertyPath: m_TagString
       value: Interactable
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 5839f35d99862144aa6775ba694369d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 5839f35d99862144aa6775ba694369d4, type: 3}
   m_IsPrefabParent: 0
 --- !u!4 &608030697 stripped
@@ -10260,10 +10260,9 @@ MonoBehaviour:
   lockPickSound: {fileID: 8300000, guid: ca4b3295eae61cd499da87beec462e62, type: 3}
   interactUI: {fileID: 360555361}
   person: {fileID: 1228950947}
-  open: Open
-  close: Close
   doorTag: Interactable
   lockPickTime: 1
+  rotateSpeed: 70
 --- !u!135 &731151176
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -12028,7 +12027,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 33a10deb0c3379c4dbb6409a5f290bbd, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 33a10deb0c3379c4dbb6409a5f290bbd, type: 3}
       propertyPath: m_LocalScale.y
@@ -12977,9 +12976,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1173086193}
-  - {fileID: 1998842928}
   - {fileID: 2085760697}
   - {fileID: 1096094153}
+  - {fileID: 1998842928}
   m_Father: {fileID: 899724694}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13623,10 +13622,9 @@ MonoBehaviour:
   lockPickSound: {fileID: 8300000, guid: ca4b3295eae61cd499da87beec462e62, type: 3}
   interactUI: {fileID: 360555361}
   person: {fileID: 1228950947}
-  open: Open
-  close: Close
   doorTag: Interactable
   lockPickTime: 1
+  rotateSpeed: 70
 --- !u!135 &953081767
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -14062,7 +14060,8 @@ Prefab:
       propertyPath: m_TagString
       value: Interactable
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 5839f35d99862144aa6775ba694369d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 5839f35d99862144aa6775ba694369d4, type: 3}
   m_IsPrefabParent: 0
 --- !u!4 &976956940 stripped
@@ -14791,9 +14790,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 976956940}
-  - {fileID: 2060481570}
   - {fileID: 1345752860}
   - {fileID: 5540616}
+  - {fileID: 2060481570}
   m_Father: {fileID: 899724694}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16069,7 +16068,7 @@ Transform:
   - {fileID: 320523297}
   - {fileID: 706690371}
   m_Father: {fileID: 899981589}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1097995405
 Prefab:
@@ -17128,8 +17127,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 608030697}
-  - {fileID: 1065508907}
   - {fileID: 1469920698}
+  - {fileID: 1065508907}
   - {fileID: 436590332}
   m_Father: {fileID: 899724694}
   m_RootOrder: 3
@@ -17643,7 +17642,8 @@ Prefab:
       propertyPath: m_TagString
       value: Interactable
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 5839f35d99862144aa6775ba694369d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 5839f35d99862144aa6775ba694369d4, type: 3}
   m_IsPrefabParent: 0
 --- !u!4 &1173086193 stripped
@@ -17805,7 +17805,7 @@ Transform:
   - {fileID: 1911665853}
   - {fileID: 1753367613}
   m_Father: {fileID: 1533320837}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1208083569
 GameObject:
@@ -18928,7 +18928,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 33a10deb0c3379c4dbb6409a5f290bbd, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 33a10deb0c3379c4dbb6409a5f290bbd, type: 3}
       propertyPath: m_LocalScale.y
@@ -19980,7 +19980,7 @@ Transform:
   - {fileID: 1170572517}
   - {fileID: 1649193228}
   m_Father: {fileID: 1025247515}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1347298754
 Prefab:
@@ -22079,7 +22079,7 @@ Transform:
   - {fileID: 197402366}
   - {fileID: 1567488294}
   m_Father: {fileID: 1149881650}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1470261142
 Prefab:
@@ -23505,8 +23505,8 @@ Transform:
   m_Children:
   - {fileID: 1711044293}
   - {fileID: 2076044455}
-  - {fileID: 2114661510}
   - {fileID: 1201660916}
+  - {fileID: 2114661510}
   m_Father: {fileID: 899724694}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24031,10 +24031,9 @@ MonoBehaviour:
   lockPickSound: {fileID: 8300000, guid: ca4b3295eae61cd499da87beec462e62, type: 3}
   interactUI: {fileID: 360555361}
   person: {fileID: 1228950947}
-  open: Open
-  close: Close
   doorTag: Interactable
   lockPickTime: 1
+  rotateSpeed: 70
 --- !u!135 &1602681408
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -25957,7 +25956,8 @@ Prefab:
       propertyPath: m_TagString
       value: Interactable
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 5839f35d99862144aa6775ba694369d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 5839f35d99862144aa6775ba694369d4, type: 3}
   m_IsPrefabParent: 0
 --- !u!4 &1711044293 stripped
@@ -27093,7 +27093,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 33a10deb0c3379c4dbb6409a5f290bbd, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 33a10deb0c3379c4dbb6409a5f290bbd, type: 3}
       propertyPath: m_LocalScale.y
@@ -28098,7 +28098,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 33a10deb0c3379c4dbb6409a5f290bbd, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 33a10deb0c3379c4dbb6409a5f290bbd, type: 3}
       propertyPath: m_LocalScale.y
@@ -31024,7 +31024,7 @@ Transform:
   - {fileID: 202963807}
   - {fileID: 81565406}
   m_Father: {fileID: 899981589}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2087528473
 GameObject:

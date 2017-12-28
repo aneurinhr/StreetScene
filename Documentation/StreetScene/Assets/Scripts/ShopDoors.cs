@@ -11,16 +11,18 @@ public class ShopDoors : MonoBehaviour {
     public GameObject interactUI;
     public GameObject person;
 
-    public string open = "";
-    public string close = "";
     public string doorTag = "";
     public float lockPickTime;
+
+    public float rotateSpeed = 3.0f;
 
     private bool m_locked = true;
     private bool m_playable = false;
     private bool m_coolDown = false;
     private bool m_lockPicking = false;
     private bool m_open = false;
+    private bool m_rotateMinus = false;
+    private bool m_rotatePositive = false;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -58,6 +60,16 @@ public class ShopDoors : MonoBehaviour {
                 StartCoroutine(Unlock());
             }
         }
+
+        if ((m_rotateMinus == true) && (m_rotatePositive != true))
+        {
+            transform.Rotate(0, 0, - (rotateSpeed * Time.deltaTime));
+        }
+        else if ((m_rotatePositive == true) && (m_rotateMinus != true))
+        {
+            transform.Rotate(0, 0, rotateSpeed * Time.deltaTime);
+        }
+
     }
 
     IEnumerator Unlock()
@@ -81,21 +93,28 @@ public class ShopDoors : MonoBehaviour {
 
         yield return new WaitForSeconds(0.7f);
 
-        GetComponent<Animation>().Play(open);
+        m_rotateMinus = true;
 
         yield return new WaitForSeconds(1.0f);
 
         m_coolDown = false;
         m_open = true;
+        m_rotateMinus = false;
     }
 
     IEnumerator Close()
     {
         m_coolDown = true;
-        GetComponent<Animation>().Play(close);
+
+        m_rotatePositive = true;
+
         GetComponent<AudioSource>().PlayOneShot(closeSound);
 
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
+
+        m_rotatePositive = false;
+
+        yield return new WaitForSeconds(1);
 
         m_coolDown = false;
         m_open = false;
