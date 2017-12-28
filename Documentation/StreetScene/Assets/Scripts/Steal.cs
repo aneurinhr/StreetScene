@@ -38,9 +38,12 @@ public class Steal : MonoBehaviour {
     {
         if ((m_stealing == false) && (m_seeStealable == true) && (Input.GetButtonDown("Steal")))
         {
-            m_stealing = true;
-            GetComponent<AudioSource>().PlayOneShot(stealSound);
-            StartCoroutine(ExecuteSteal());
+            if (m_stealable == other.gameObject)
+            {
+                m_stealing = true;
+                GetComponent<AudioSource>().PlayOneShot(stealSound);
+                StartCoroutine(ExecuteSteal());
+            }
         }
     }
 
