@@ -5,6 +5,7 @@ using UnityEngine;
 public class WinLose : MonoBehaviour {
 
     private bool m_Win = false;
+    private bool m_Gameover = false;
 
     public GameObject win;
     public GameObject lose;
@@ -15,9 +16,13 @@ public class WinLose : MonoBehaviour {
 
     public void GameOver()
     {
-        menu.GetComponent<PauseMenu>().GameOver();
+        if (m_Gameover == false)
+        {
+            menu.GetComponent<PauseMenu>().GameOver();
+            CheckWin();
+        }
 
-        CheckWin();
+        m_Gameover = true;
     }
 
     private void CheckWin()
