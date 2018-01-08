@@ -20,7 +20,7 @@ public class TriesToLeave : MonoBehaviour {
 
     IEnumerator ExecuteVoiceline()
     {
-        yield return new WaitForSecondsRealtime(0.5f);
+        yield return new WaitForSecondsRealtime(5f);
 
         voiceLine = false;
     }
