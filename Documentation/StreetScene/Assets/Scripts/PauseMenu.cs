@@ -11,6 +11,8 @@ public class PauseMenu : MonoBehaviour {
     public GameObject pauseMenu;
     public GameObject player;
 
+    public AudioSource voiceLine;
+
     private MouseLook m_MouseLook;
 
     private void Start()
@@ -30,12 +32,14 @@ public class PauseMenu : MonoBehaviour {
                 Time.timeScale = 0;
                 m_MouseLook.SetCursorLock(false);
                 pauseMenu.SetActive(true);
+                voiceLine.Pause();
             }
             else
             {
                 Time.timeScale = 1;
                 m_MouseLook.SetCursorLock(true);
                 pauseMenu.SetActive(false);
+                voiceLine.Play();
             }
 
         }
